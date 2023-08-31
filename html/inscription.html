@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../css/inscription.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <h1>s'abonner</h1>
+        <fieldset>
+            <legend><span class="number">1</span>identification</legend>
+            <label for="name">nom:</label>
+            <input type="text" id="name" />
+
+            <label for="email">e-mail:</label>
+            <input type="email" id="email" />
+
+            <label for="mot de passe">mot de passe:</label>
+            <input type="mot de passe" id="mot de passe" />
+
+            <label for="">statut</label>
+            <input type="radio" name="" id="mineur" value="mineur" />
+            <label for="mineur">mineur</label>
+            <input type="radio" name="" id="majeur"  value="majeur"/>
+            <label for="majeur">majeur</label>
+
+        </fieldset>
+        <fieldset>
+            <legend><span class="number">2</span>profil</legend>
+            <label for="bio">biographie:</label>
+            <textarea name="" id="bio"></textarea> 
+
+            <label for="job">specialité:</label>
+            <select name="" id="job">
+                <optgroup label="web">
+                    <option value="front">frontend</option>
+                    <option value="back">backend</option>
+                    <option value="php">php</option>
+                    <option value="python">python</option>
+                </optgroup>
+                <optgroup label="mobile">
+                    <option value="android">android</option>
+                    <option value="ios">IOS</option>
+                    <option value="flooter">flooter</option>
+                    <option value="mobile_designer">python</option>
+                </optgroup>
+                <optgroup label="buness">
+                    <option value="entreprise">possede une entreprise</option>
+                </optgroup>   
+            </select>
+
+            <label for="">centre d'interet</label>
+            <input type="checkbox" name="" id="sport" value="sport"/>
+            <label for="sport">sport</label>
+
+            <input type="checkbox" name="" id="dance" value="dance"/>
+            <label for="dance">dans</label>
+
+            <input type="checkbox" name="" id="tourisme" value="tourisme"/>
+            <label for="tourisme">tourisme</label>
+
+        </fieldset>
+            <button type="submit"><a href="./connexion.html">s'inscrire</a></button>
+    </form>
+</body>
+</html>

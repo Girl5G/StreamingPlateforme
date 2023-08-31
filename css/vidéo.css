@@ -1,0 +1,56 @@
+.pagesVideo {
+    width: 100%;
+    border: 2px solid black;
+    margin-top: 20px;
+  }
+  
+  .titre h1 {
+    text-align: center;
+    margin-top: 10px;
+    color: #3232328b;
+    font-family: sans-serif;
+  }
+
+  .card{
+    border: 1px solid red;
+  }
+  
+  .card p {
+    color: rgba(155, 224, 201, 0.539);
+  }
+  .cards {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+  }
+  
+  .card button {
+    border: none;
+    border-radius: 20px / 50px;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 17px;
+    float: right;
+    background-color: rgba(155, 224, 201, 0.539);
+  }
+  
+  .grid-col h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+  }
+  
+  .grid-col span {
+    font-size: 24px;
+    margin: 10px;
+  }
+  
+  .card a {
+    color: #323232;
+  }
+  
+  .grid-col img {
+    width: 100%;
+    border-radius: 1px;
+  }
