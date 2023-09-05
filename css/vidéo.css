@@ -12,6 +12,7 @@
   }
 
   .card{
+    width: 100%;
     border: 1px solid red;
   }
   
@@ -36,21 +37,32 @@
   }
   
   .grid-col h1 {
-    font-size: 20px;
+    text-align: center;
+    font-size: 25px;
     margin-bottom: 20px;
     font-family: sans-serif;
   }
   
   .grid-col span {
-    font-size: 24px;
+    font-size: 2rem;
     margin: 10px;
+    color: red;
+  }
+
+  .grid-col h2{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 3rem;
+    font-family: sans-serif;
+    color: grey;
   }
   
   .card a {
     color: #323232;
   }
   
-  .grid-col img {
+  .grid-col video {
     width: 100%;
     border-radius: 1px;
+    height: 80vh;
   }

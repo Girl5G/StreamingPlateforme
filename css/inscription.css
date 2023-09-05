@@ -17,7 +17,6 @@ h1{
     text-align: center;
 }
 .number{
-background-color: #b8041f;
 color: #fff;
 height: 30px;
 width: 30px;
@@ -59,8 +58,8 @@ input[type='checkbox'], input[type='radio']{
 }
 button{
     padding: 15px 30px;
-    color: #fff;
-    background-color: #ff9100;
+    color: #060000;
+  background-color:white;
     font-size: 18px;
     text-align: center;
     width:  100%;
@@ -73,5 +72,4 @@ button{
 button:hover{
     color: #fff;
     box-shadow:11Px 1px 3px rgba(0,0,0,0,1) ;
-    background-color: #ff9100;
-}
+}    

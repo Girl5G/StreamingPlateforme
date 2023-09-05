@@ -43,13 +43,16 @@ main{
     border-radius: 10px;
     border: 2px solid #24649c;
     outline: none;
-    background-color: red;
-    color: white;
+    background-color: white;
+    color: rgb(7, 0, 0);
     font-size: 1.2rem;
-    transition: all .2s ease-in-out;  
+    transition: all .2s ease-in-out;
+    text-decoration: none; 
+     
 }
 .form_container_button:hover{
     background-color: #225683;
+
 }
 @media screen and (max-width:850px) {
     .form_container{
